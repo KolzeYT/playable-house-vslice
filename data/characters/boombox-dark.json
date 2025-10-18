@@ -2,14 +2,14 @@
 	"version": "1.0.0",
 	"renderType": "sparrow",
 	"offsets": [
-		-50,
-		0
+		-10,
+		20
 	],
 	"danceEvery": 1,
 	"scale": 1,
-	"name": "Boombox",
+	"name": "Boombox (Dark)",
 	"cameraOffsets": [
-		0,
+		-40,
 		0
 	],
 	"flipX": false,

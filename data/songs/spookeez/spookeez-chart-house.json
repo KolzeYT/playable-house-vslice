@@ -2801,126 +2801,140 @@
     },
     "events": [
         {
-            "t": 6400,
+            "t": 0.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 9600,
+            "t": 3200.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 12800,
+            "t": 6400.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 15999,
+            "t": 9600.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 19200,
+            "t": 12800.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 25600,
+            "t": 16000.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 31999,
+            "t": 19200.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 35200,
+            "t": 25600.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 38400,
+            "t": 32000.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 41600,
+            "t": 35200.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 44800,
+            "t": 38400.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 51200,
+            "t": 41600.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 57600,
+            "t": 44800.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 64000,
+            "t": 51200.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 70400,
+            "t": 57600.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 76800,
+            "t": 64000.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0
             }
         },
         {
-            "t": 83200,
+            "t": 70400.0,
             "e": "FocusCamera",
             "v": {
                 "char": 1
             }
         },
         {
-            "t": 89800,
+            "t": 76800.0,
+            "e": "FocusCamera",
+            "v": {
+                "char": 0
+            }
+        },
+        {
+            "t": 83200.0,
+            "e": "FocusCamera",
+            "v": {
+                "char": 1
+            }
+        },
+        {
+            "t": 89600.0,
             "e": "FocusCamera",
             "v": {
                 "char": 0

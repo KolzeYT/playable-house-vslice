@@ -1,8 +1,8 @@
 {
     "version": "2.2.4",
-    "songName": "Fresh (House Mix)",
-    "artist": "ANVISOREAL (feat. hooovie)",
-    "charter": "Hooovie",
+    "songName": "Philly Nice (House Mix)",
+    "artist": "duzeoczyfr4nk",
+    "charter": "chyba hooovie",
     "divisions": 96,
     "looped": false,
     "offsets": {
@@ -19,22 +19,22 @@
         "characters": {
             "player": "house",
             "girlfriend": "boombox",
-            "opponent": "dad",
+            "opponent": "pico",
             "instrumental": "house",
             "altInstrumentals": [],
             "opponentVocals": [
-                "dad"
+                "pico"
             ],
             "playerVocals": [
                 "house"
             ]
         },
-        "stage": "mainStageErect",
+        "stage": "phillyTrainErect",
         "noteStyle": "funkin",
         "ratings": {
             "easy": 0,
             "normal": 0,
-            "hard": 3
+            "hard": 5
         },
         "album": "volhouse2",
         "previewStart": 0,
@@ -46,7 +46,7 @@
         {
             "t": 0,
             "b": 0,
-            "bpm": 120,
+            "bpm": 175,
             "n": 4,
             "d": 4,
             "bt": [
