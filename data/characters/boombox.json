@@ -2,7 +2,7 @@
 	"version": "1.0.0",
 	"renderType": "sparrow",
 	"offsets": [
-		50,
+		-50,
 		0
 	],
 	"danceEvery": 1,

@@ -9,8 +9,8 @@
 	"scale": 1,
 	"flipX": true,
 	"cameraOffsets": [
-		0,
-		0
+		-125,
+		15
 	],
 	"name": "House",
 	"flipY": false,

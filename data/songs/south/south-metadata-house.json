@@ -1,7 +1,7 @@
 {
     "version": "2.2.4",
-    "songName": "Bopeebo (House Mix)",
-    "artist": "CoddingCat, duzeoczyfr4nk & hooovie",
+    "songName": "South (House Mix)",
+    "artist": "Alien 86",
     "charter": "chyba hooovie",
     "divisions": 96,
     "looped": false,
@@ -17,24 +17,24 @@
             "hard"
         ],
         "characters": {
-            "player": "house",
-            "girlfriend": "boombox",
-            "opponent": "dad",
+            "player": "house-dark",
+            "girlfriend": "boombox-dark",
+            "opponent": "spooky-dark",
             "instrumental": "house",
             "altInstrumentals": [],
             "opponentVocals": [
-                "dad"
+                "spooky"
             ],
             "playerVocals": [
                 "house"
             ]
         },
-        "stage": "mainStageErect",
+        "stage": "spookyMansionErect",
         "noteStyle": "funkin",
         "ratings": {
             "easy": 0,
             "normal": 0,
-            "hard": 3
+            "hard": 4
         },
         "album": "volhouse2",
         "previewStart": 0,
@@ -46,7 +46,7 @@
         {
             "t": 0,
             "b": 0,
-            "bpm": 100,
+            "bpm": 165,
             "n": 4,
             "d": 4,
             "bt": [
