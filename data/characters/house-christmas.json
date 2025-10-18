@@ -1,0 +1,144 @@
+{
+	"danceEvery": 1,
+	"offsets": [
+		0,
+		0
+	],
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"scale": 1,
+	"flipX": true,
+	"cameraOffsets": [
+		-100,
+		15
+	],
+	"name": "House",
+	"flipY": false,
+	"singTime": 4,
+	"isPixel": false,
+	"startingAnimation": "idle",
+	"assetPath": "characters/alts/houseXmas",
+	"healthIcon": {
+		"id": "house"
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "IDLE DANCE",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				6, -15
+			],
+			"frameIndices": [],
+			"prefix": "SING DOWN",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				7, 6
+			],
+			"frameIndices": [],
+			"prefix": "SING RIGHT",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				56, -4
+			],
+			"frameIndices": [],
+			"prefix": "SING LEFT",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-4, 21
+			],
+			"frameIndices": [],
+			"prefix": "SING UP",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				6, -15
+			],
+			"frameIndices": [],
+			"prefix": "Missdown",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				7, 6
+			],
+			"frameIndices": [],
+			"prefix": "Missright",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				56, -4
+			],
+			"frameIndices": [],
+			"prefix": "Missleft",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-4, 21
+			],
+			"frameIndices": [],
+			"prefix": "Missup",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		}
+	]
+}

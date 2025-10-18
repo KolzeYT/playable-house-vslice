@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "House Playable Vol. 1",
+  "artists": ["House Crew"],
+  "albumArtAsset": "freeplay/albumRoll/house1",
+  "albumTitleAsset": "freeplay/albumRoll/house1-title",
+  "albumTitleOffsets": [0, 0]
+}

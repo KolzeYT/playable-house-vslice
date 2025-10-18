@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Drawn and animated by szymibymi
+-->
+<TextureAtlas imagePath="HousePlane_right.png" width="771" height="667" spritePadding="5" borderPadding="5">
+	<SubTexture name="plane haus right0001" x="5" y="503" width="761" height="159" frameX="0" frameY="-4" frameWidth="761" frameHeight="163"/>
+	<SubTexture name="plane haus right0002" x="5" y="173" width="761" height="160" frameX="0" frameY="-3" frameWidth="761" frameHeight="163"/>
+	<SubTexture name="plane haus right0003" x="5" y="5" width="761" height="163" frameX="0" frameY="0" frameWidth="761" frameHeight="163"/>
+	<SubTexture name="plane haus right0004" x="5" y="338" width="761" height="160" frameX="0" frameY="-3" frameWidth="761" frameHeight="163"/>
+</TextureAtlas>

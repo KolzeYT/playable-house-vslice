@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Drawn and animated by szymibymi
+-->
+<TextureAtlas imagePath="road.png" width="5809" height="633" spritePadding="4" borderPadding="1">
+	<SubTexture name="road0001" x="2954" y="1" width="2854" height="631" frameX="-1" frameY="-2" frameWidth="2955" frameHeight="637"/>
+	<SubTexture name="road0002" x="1" y="1" width="2949" height="631" frameX="-1" frameY="-2" frameWidth="2955" frameHeight="637"/>
+	<SubTexture name="road0003" x="2954" y="1" width="2854" height="631" frameX="-1" frameY="-2" frameWidth="2955" frameHeight="637"/>
+	<SubTexture name="road0004" x="1" y="1" width="2949" height="631" frameX="-1" frameY="-2" frameWidth="2955" frameHeight="637"/>
+</TextureAtlas>

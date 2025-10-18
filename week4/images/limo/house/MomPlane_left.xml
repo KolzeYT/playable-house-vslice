@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Drawn and animated by szymibymi
+-->
+<TextureAtlas imagePath="MomPlane_left.png" width="775" height="668" spritePadding="5" borderPadding="5">
+	<SubTexture name="plane mom left0001" x="5" y="173" width="765" height="160" frameX="0" frameY="-3" frameWidth="765" frameHeight="163"/>
+	<SubTexture name="plane mom left0002" x="5" y="338" width="765" height="160" frameX="0" frameY="-3" frameWidth="765" frameHeight="163"/>
+	<SubTexture name="plane mom left0003" x="5" y="5" width="765" height="163" frameX="0" frameY="0" frameWidth="765" frameHeight="163"/>
+	<SubTexture name="plane mom left0004" x="5" y="503" width="765" height="160" frameX="0" frameY="-3" frameWidth="765" frameHeight="163"/>
+</TextureAtlas>

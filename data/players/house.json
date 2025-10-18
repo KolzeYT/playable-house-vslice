@@ -3,7 +3,8 @@
   "name": "House",
   "ownedChars": [
     "house",
-    "house-dark"
+    "house-dark",
+    "house-christmas"
   ],
   "showUnownedChars": false,
   "unlocked": true,

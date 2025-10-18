@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Tex-Packer-EX v0.6.8 https://strawberrysage.github.io/tex-packer-ex
+-->
+<TextureAtlas imagePath="house1-title.png" width="135" height="529">
+  <SubTexture name="idle0000" x="0" y="265" width="135" height="264" rotated="true"  frameX="-0" frameY="-1" frameWidth="288" frameHeight="136"/>
+  <SubTexture name="switch0000" x="0" y="0" width="135" height="265" rotated="true"  frameX="-0" frameY="-1" frameWidth="288" frameHeight="136"/>
+</TextureAtlas>

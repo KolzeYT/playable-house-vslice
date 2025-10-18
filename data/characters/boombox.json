@@ -10,7 +10,7 @@
 	"name": "Boombox",
 	"cameraOffsets": [
 		-30,
-		-75
+		0
 	],
 	"flipX": false,
 	"startingAnimation": "idle",

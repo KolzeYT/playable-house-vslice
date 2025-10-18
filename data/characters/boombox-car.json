@@ -7,9 +7,9 @@
 	],
 	"danceEvery": 1,
 	"scale": 1,
-	"name": "Boombox (Dark)",
+	"name": "Boombox (Week 4)",
 	"cameraOffsets": [
-		-20,
+		-30,
 		0
 	],
 	"flipX": false,
@@ -27,7 +27,7 @@
 		"id": "face",
 		"flipX": false
 	},
-	"assetPath": "characters/boombox_dark",
+	"assetPath": "characters/boomboxweek4",
 	"generatedBy": "Nova Character Editor v3.0.0",
 	"animations": [
 		{
