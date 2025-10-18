@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "name": "Boombox (Pixel)",
+  "offsets": [
+		3,
+		10
+	],
+  "cameraOffsets": [
+		-40,
+		-150
+	],
+  "assetPath": "characters/boomboxPixel",
+  "healthIcon": {
+    "id": "face",
+    "flipX": false,
+    "isPixel": true
+  },
+  "death": {
+    "cameraOffsets": [0, 0],
+    "cameraZoom": 1.0
+  },
+  "singTime": 8.0,
+  "isPixel": true,
+  "scale": 5,
+  "renderType": "sparrow",
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "",
+      "offsets": [5, 12]
+    }
+  ]
+}

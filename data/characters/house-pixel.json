@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "name": "House (Pixel)",
+  "assetPath": "characters/alts/housePixel",
+  "healthIcon": {
+    "id": "house-pixel",
+    "flipX": false,
+    "isPixel": true
+  },
+  "death": {
+    "cameraOffsets": [0, 0],
+    "cameraZoom": 1.0
+  },
+  "singTime": 8.0,
+  "isPixel": true,
+  "scale": 5,
+  "flipX": true,
+  "renderType": "multisparrow",
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "left0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "down0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "up0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "right0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "MISS left",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "MISS down",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "MISS up",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "MISS right",
+      "offsets": [0, 0]
+    }
+  ]
+}

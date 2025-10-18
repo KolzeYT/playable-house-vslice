@@ -1,0 +1,28 @@
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import flixel.FlxG;
+import funkin.audio.FunkinSound;
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.GameOverSubState;
+import funkin.play.character.BaseCharacter;
+import funkin.data.character.CharacterDataParser;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+import funkin.play.GameOverSubState;
+import funkin.play.PauseSubState;
+
+class HouseCharacter extends MultiSparrowCharacter
+{
+  function new()
+  {
+    super('house');
+  }
+
+  function onCreate(event:ScriptEvent)
+  {
+    super.onCreate(event);
+    GameOverSubState.musicSuffix = '-house';
+    GameOverSubState.blueBallSuffix = '-house';
+
+    PauseSubState.musicSuffix = '-house';
+  }
+}

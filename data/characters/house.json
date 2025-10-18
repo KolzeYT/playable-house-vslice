@@ -4,7 +4,7 @@
 		0,
 		0
 	],
-	"renderType": "sparrow",
+	"renderType": "multisparrow",
 	"version": "1.0.1",
 	"scale": 1,
 	"flipX": true,
@@ -33,7 +33,6 @@
 			"looped": false,
 			"name": "idle",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -47,7 +46,6 @@
 			"looped": false,
 			"name": "singDOWN",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -61,7 +59,6 @@
 			"looped": false,
 			"name": "singRIGHT",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -75,7 +72,6 @@
 			"looped": false,
 			"name": "singLEFT",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -89,7 +85,6 @@
 			"looped": false,
 			"name": "singUP",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -103,7 +98,6 @@
 			"looped": false,
 			"name": "singDOWNmiss",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -117,7 +111,6 @@
 			"looped": false,
 			"name": "singRIGHTmiss",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -131,7 +124,6 @@
 			"looped": false,
 			"name": "singLEFTmiss",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -145,7 +137,6 @@
 			"looped": false,
 			"name": "singUPmiss",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -159,7 +150,6 @@
 			"looped": false,
 			"name": "hey",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -173,7 +163,6 @@
 			"looped": false,
 			"name": "ugh",
 			"flipY": false,
-			"assetPath": null,
 			"frameRate": 24
 		},
 		{
@@ -187,7 +176,45 @@
 			"looped": false,
 			"name": "yeah",
 			"flipY": false,
-			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				286, 0
+			],
+			"frameIndices": [],
+			"prefix": "dies",
+			"flipX": false,
+			"looped": false,
+			"name": "firstDeath",
+			"assetPath": "characters/alts/houseDeath",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				303.5, -119.23
+			],
+			"frameIndices": [],
+			"prefix": "death loop",
+			"flipX": false,
+			"looped": true,
+			"name": "deathLoop",
+			"flipY": false,
+			"assetPath": "characters/alts/houseDeath",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				405.1, -9.45
+			],
+			"frameIndices": [],
+			"prefix": "death confirm",
+			"flipX": false,
+			"looped": false,
+			"name": "deathConfirm",
+			"flipY": false,
+			"assetPath": "characters/alts/houseDeath",
 			"frameRate": 24
 		}
 	]

@@ -1,0 +1,60 @@
+{
+    "version": "2.2.4",
+    "songName": "Eggnog (House Mix)",
+    "artist": "IgnitiusSpark",
+    "charter": "Alien 86",
+    "divisions": 96,
+    "looped": false,
+    "offsets": {
+        "instrumental": 0,
+        "altInstrumentals": {},
+        "vocals": {},
+        "altVocals": {}
+    },
+    "playData": {
+        "songVariations": [],
+        "difficulties": [
+            "hard"
+        ],
+        "characters": {
+            "player": "house-christmas",
+            "girlfriend": "boombox-christmas",
+            "opponent": "parents-christmas",
+            "instrumental": "house",
+            "altInstrumentals": [],
+            "opponentVocals": [
+                "parents"
+            ],
+            "playerVocals": [
+                "house"
+            ]
+        },
+        "stage": "mallXmasErect",
+        "noteStyle": "funkin",
+        "ratings": {
+            "easy": 0,
+            "normal": 0,
+            "hard": 5
+        },
+        "album": "volhouse2",
+        "previewStart": 0,
+        "previewEnd": 15000
+    },
+    "generatedBy": "Kolze's FPS Plus to Base Game Porter",
+    "timeFormat": "ms",
+    "timeChanges": [
+        {
+            "t": 0,
+            "b": 0,
+            "bpm": 150,
+            "n": 4,
+            "d": 4,
+            "bt": [
+                4,
+                4,
+                4,
+                4
+            ]
+        }
+    ]
+}
