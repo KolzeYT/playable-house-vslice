@@ -9,8 +9,8 @@
 	"scale": 1,
 	"name": "Boombox (Dark)",
 	"cameraOffsets": [
-		-40,
-		0
+		-20,
+		-75
 	],
 	"flipX": false,
 	"startingAnimation": "idle",
