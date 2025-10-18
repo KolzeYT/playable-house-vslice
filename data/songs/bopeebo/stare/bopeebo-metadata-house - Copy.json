@@ -1,0 +1,60 @@
+{
+    "version": "2.2.4",
+    "songName": "Bopeebo (House Mix)",
+    "artist": "CoddingCat, duzeoczyfr4nk & hooovie",
+    "charter": "chyba hooovie",
+    "divisions": 96,
+    "looped": false,
+    "offsets": {
+        "instrumental": 0,
+        "altInstrumentals": {},
+        "vocals": {},
+        "altVocals": {}
+    },
+    "playData": {
+        "songVariations": [],
+        "difficulties": [
+            "hard"
+        ],
+        "characters": {
+            "player": "house",
+            "girlfriend": "Boombox",
+            "opponent": "dad",
+            "instrumental": "house",
+            "altInstrumentals": [],
+            "opponentVocals": [
+                "house"
+            ],
+            "playerVocals": [
+                "dad"
+            ]
+        },
+        "stage": "mainStageErect",
+        "noteStyle": "funkin",
+        "ratings": {
+            "easy": 0,
+            "normal": 0,
+            "hard": 3
+        },
+        "album": "colowsky1",
+        "previewStart": 0,
+        "previewEnd": 15000
+    },
+    "generatedBy": "Kolze's FPS Plus to Base Game Porter",
+    "timeFormat": "ms",
+    "timeChanges": [
+        {
+            "t": 0,
+            "b": 0,
+            "bpm": 100,
+            "n": 4,
+            "d": 4,
+            "bt": [
+                4,
+                4,
+                4,
+                4
+            ]
+        }
+    ]
+}

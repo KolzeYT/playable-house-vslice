@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Drawn and animated by szymibymi
+-->
+<TextureAtlas imagePath="boomboxPixel.png" width="96" height="261" spritePadding="5" borderPadding="5">
+	<SubTexture name="gf0001" x="5" y="198" width="86" height="58" frameX="0" frameY="-2" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0002" x="5" y="198" width="86" height="58" frameX="0" frameY="-2" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0003" x="5" y="5" width="86" height="60" frameX="0" frameY="0" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0004" x="5" y="5" width="86" height="60" frameX="0" frameY="0" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0005" x="5" y="70" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0006" x="5" y="70" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0007" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0008" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0009" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0010" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0011" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0012" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0013" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0014" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+	<SubTexture name="gf0015" x="5" y="134" width="86" height="59" frameX="0" frameY="-1" frameWidth="86" frameHeight="60"/>
+</TextureAtlas>

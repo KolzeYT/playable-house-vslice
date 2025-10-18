@@ -1,0 +1,206 @@
+{
+  "version": "1.0.0",
+  "name": "House",
+  "ownedChars": [
+    "house",
+    "house-dark"
+  ],
+  "showUnownedChars": false,
+  "unlocked": true,
+  "freeplayStyle": "house",
+  "stickerPack": "standard-house",
+  "freeplayDJ": {
+    "assetPath": "freeplay/dj-house",
+    "charSelect": {
+      "transitionDelay": 0.45
+    },
+    "animations": [
+      {
+        "name": "intro",
+        "prefix": "intro",
+        "offsets": [935, 560]
+      },
+      {
+        "name": "idle",
+        "prefix": "idle",
+        "offsets": [935, 560]
+      },
+      {
+        "name": "confirm",
+        "prefix": "confirm",
+        "offsets": [935, 560]
+      },
+      {
+        "name": "fistPump",
+        "prefix": "cheer",
+        "offsets": [935, 560]
+      },
+      {
+        "name": "loss",
+        "prefix": "loss",
+        "offsets": [935, 560]
+      },
+      {
+        "name": "charSelect",
+        "prefix": "outro",
+        "offsets": [935, 560]
+      }
+    ]
+  },
+  "charSelect": {
+    "position": 1,
+    "gf": {
+      "assetPath": "charSelect/gfChill",
+      "animInfoPath": "charSelect/gfAnimInfo",
+      "visualizer": false
+    }
+  },
+  "results": {
+    "music": {
+      "PERFECT_GOLD": "resultsPERFECT",
+      "PERFECT": "resultsPERFECT",
+      "EXCELLENT": "resultsEXCELLENT",
+      "GREAT": "resultsNORMAL",
+      "GOOD": "resultsNORMAL",
+      "SHIT": "resultsSHIT"
+    },
+    "perfectGold": [
+      {
+        "renderType": "animateatlas",
+        "scriptClass": "BFBedPerfectResults",
+        "startFrameLabel": "INTRO",
+        "filter": "naughty",
+        "zIndex": 500,
+        "offsets": [1342, 370],
+        "loopFrameLabel": "LOOP START"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/hearts",
+        "filter": "naughty",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [1342, 370],
+        "loopFrame": 43
+      },
+      {
+        "renderType": "animateatlas",
+        "scriptClass": "BFBedPerfectResults",
+        "startFrameLabel": "INTRO 2",
+        "filter": "safe",
+        "zIndex": 500,
+        "offsets": [1342, 370],
+        "loopFrameLabel": "LOOP 2"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
+        "filter": "safe",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [650, 370],
+        "scale": 0.6,
+        "sound": "shared:tickleFight",
+        "loopFrameLabel": "LOOP"
+      }
+    ],
+    "perfect": [
+      {
+        "renderType": "animateatlas",
+        "scriptClass": "BFBedPerfectResults",
+        "startFrameLabel": "INTRO",
+        "filter": "naughty",
+        "zIndex": 500,
+        "offsets": [1342, 370],
+        "loopFrameLabel": "LOOP START"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/hearts",
+        "filter": "naughty",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [1342, 370],
+        "loopFrame": 43
+      },
+      {
+        "renderType": "animateatlas",
+        "scriptClass": "BFBedPerfectResults",
+        "startFrameLabel": "INTRO 2",
+        "filter": "safe",
+        "zIndex": 500,
+        "offsets": [1342, 370],
+        "loopFrameLabel": "LOOP 2"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
+        "filter": "safe",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [650, 370],
+        "scale": 0.6,
+        "sound": "shared:tickleFight",
+        "loopFrameLabel": "LOOP"
+      }
+    ],
+    "excellent": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsEXCELLENT",
+        "zIndex": 500,
+        "offsets": [1329, 429],
+
+        "loopFrame": 29
+      }
+    ],
+    "great": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsGREAT/gf",
+        "scale": 0.93,
+        "delay": 0.25,
+        "offsets": [802, 331],
+        "zIndex": 499,
+
+        "loopFrame": 9
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsGREAT/bf",
+        "scale": 0.93,
+        "zIndex": 500,
+        "offsets": [929, 363],
+
+        "loopFrame": 15
+      }
+    ],
+    "good": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsGOOD/bf",
+        "zIndex": 501,
+        "offsets": [662, 371],
+
+        "loopFrame": 14
+      },
+      {
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/results-bf/resultsGOOD/resultGirlfriendGOOD",
+        "zIndex": 500,
+        "delay": 0.91,
+        "offsets": [629, 323],
+        "loopFrame": 9
+      }
+    ],
+    "loss": [
+      {
+        "renderType": "animateatlas",
+        "scriptClass": "BFShitResults",
+        "zIndex": 500,
+        "offsets": [0, 20],
+        "loopFrameLabel": "Loop Start"
+      }
+    ]
+  }
+}

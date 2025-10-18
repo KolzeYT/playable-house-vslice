@@ -1,0 +1,48 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		50,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Boombox",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"flipY": false,
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "face",
+		"flipX": false
+	},
+	"assetPath": "characters/boombox",
+	"generatedBy": "Nova Character Editor v3.0.0",
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "GF",
+			"name": "idle",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
+		}
+	]
+}

@@ -1,0 +1,194 @@
+{
+	"danceEvery": 1,
+	"offsets": [
+		0,
+		0
+	],
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"scale": 1,
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"name": "House",
+	"flipY": false,
+	"singTime": 4,
+	"isPixel": false,
+	"startingAnimation": "idle",
+	"assetPath": "characters/housePlayer",
+	"healthIcon": {
+		"id": "house"
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "IDLE DANCE",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				-30
+			],
+			"frameIndices": [],
+			"prefix": "SING DOWN",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				-5
+			],
+			"frameIndices": [],
+			"prefix": "SING RIGHT",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				60,
+				5
+			],
+			"frameIndices": [],
+			"prefix": "SING LEFT",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				30
+			],
+			"frameIndices": [],
+			"prefix": "SING UP",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				-30
+			],
+			"frameIndices": [],
+			"prefix": "MISSDOWN",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				-5
+			],
+			"frameIndices": [],
+			"prefix": "MISSRIGHT",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				60,
+				5
+			],
+			"frameIndices": [],
+			"prefix": "MISSLEFT",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				30
+			],
+			"frameIndices": [],
+			"prefix": "MISSUP",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				11,
+				11
+			],
+			"frameIndices": [],
+			"prefix": "HEY",
+			"flipX": false,
+			"looped": false,
+			"name": "hey",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				13,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "ugh",
+			"flipX": false,
+			"looped": false,
+			"name": "ugh",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				20,
+				-20
+			],
+			"frameIndices": [],
+			"prefix": "yeah cheer",
+			"flipX": false,
+			"looped": false,
+			"name": "yeah",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		}
+	]
+}
