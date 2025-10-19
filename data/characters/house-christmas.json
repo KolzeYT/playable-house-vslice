@@ -9,10 +9,10 @@
 	"scale": 1,
 	"flipX": true,
 	"cameraOffsets": [
-		-100,
-		15
+		145,
+		100
 	],
-	"name": "House",
+	"name": "House (Christmas)",
 	"flipY": false,
 	"singTime": 4,
 	"isPixel": false,
