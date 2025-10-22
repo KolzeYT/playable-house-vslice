@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Drawn by Codding Cat and animated by Codding Cat, szymibymi
+-->
+<TextureAtlas imagePath="tankmanLaugh.png" width="2418" height="2214" spritePadding="4" borderPadding="1">
+	<SubTexture name="tankman house laugh0001" x="566" y="1439" width="586" height="384" rotated="true" frameX="-25" frameY="0" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0002" x="566" y="1439" width="586" height="384" rotated="true" frameX="-25" frameY="0" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0003" x="1156" y="1439" width="583" height="385" rotated="true" frameX="-25" frameY="-3" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0004" x="1156" y="1439" width="583" height="385" rotated="true" frameX="-25" frameY="-3" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0005" x="1646" y="542" width="385" height="582" frameX="-25" frameY="-4" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0006" x="1646" y="542" width="385" height="582" frameX="-25" frameY="-4" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0007" x="566" y="1439" width="586" height="384" rotated="true" frameX="-25" frameY="0" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0008" x="566" y="1439" width="586" height="384" rotated="true" frameX="-25" frameY="0" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0009" x="1156" y="1439" width="583" height="385" rotated="true" frameX="-25" frameY="-3" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0010" x="1156" y="1439" width="583" height="385" rotated="true" frameX="-25" frameY="-3" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0011" x="1646" y="542" width="385" height="582" frameX="-25" frameY="-4" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0012" x="1646" y="542" width="385" height="582" frameX="-25" frameY="-4" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0013" x="566" y="1827" width="583" height="384" rotated="true" frameX="-25" frameY="-3" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0014" x="566" y="1827" width="583" height="384" rotated="true" frameX="-25" frameY="-3" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0015" x="1153" y="1828" width="576" height="385" rotated="true" frameX="-25" frameY="-10" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0016" x="1153" y="1828" width="576" height="385" rotated="true" frameX="-25" frameY="-10" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0017" x="1743" y="1128" width="385" height="572" frameX="-25" frameY="-14" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0018" x="1743" y="1128" width="385" height="572" frameX="-25" frameY="-14" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0019" x="1733" y="1828" width="576" height="384" rotated="true" frameX="-25" frameY="-10" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0020" x="1733" y="1828" width="576" height="384" rotated="true" frameX="-25" frameY="-10" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0021" x="1719" y="1" width="573" height="385" rotated="true" frameX="-25" frameY="-13" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0022" x="1719" y="1" width="573" height="385" rotated="true" frameX="-25" frameY="-13" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0023" x="1743" y="1128" width="385" height="572" frameX="-25" frameY="-14" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0024" x="2035" y="390" width="382" height="576" frameX="-25" frameY="-10" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0025" x="2035" y="390" width="382" height="576" frameX="-25" frameY="-10" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0026" x="1291" y="1" width="424" height="537" frameX="-29" frameY="-45" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0027" x="1291" y="1" width="424" height="537" frameX="-29" frameY="-45" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0028" x="1" y="575" width="546" height="428" rotated="true" frameX="-30" frameY="-35" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0029" x="1" y="575" width="546" height="428" rotated="true" frameX="-30" frameY="-35" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0030" x="859" y="1" width="428" height="544" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0031" x="859" y="1" width="428" height="544" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0032" x="1" y="1007" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0033" x="1" y="1007" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0034" x="549" y="1007" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0035" x="549" y="1007" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0036" x="1097" y="1007" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0037" x="1097" y="1007" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0038" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0039" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0040" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0041" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0042" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0043" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0044" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0045" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0046" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0047" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0048" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0049" x="1098" y="549" width="544" height="428" rotated="true" frameX="-30" frameY="-37" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0050" x="551" y="574" width="543" height="429" rotated="true" frameX="-29" frameY="-38" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0051" x="551" y="574" width="543" height="429" rotated="true" frameX="-29" frameY="-38" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0052" x="1" y="1439" width="561" height="414" rotated="true" frameX="-13" frameY="-26" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0053" x="1" y="1439" width="561" height="414" rotated="true" frameX="-13" frameY="-26" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0054" x="431" y="1" width="424" height="569" frameX="-2" frameY="-18" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0055" x="431" y="1" width="424" height="569" frameX="-2" frameY="-18" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0056" x="1" y="1" width="426" height="570" frameX="0" frameY="-17" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0057" x="1" y="1" width="426" height="570" frameX="0" frameY="-17" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0058" x="1" y="1" width="426" height="570" frameX="0" frameY="-17" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0059" x="1" y="1" width="426" height="570" frameX="0" frameY="-17" frameWidth="429" frameHeight="586"/>
+	<SubTexture name="tankman house laugh0060" x="1" y="1" width="426" height="570" frameX="0" frameY="-17" frameWidth="429" frameHeight="586"/>
+</TextureAtlas>

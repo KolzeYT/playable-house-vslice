@@ -25,4 +25,19 @@ class HouseCharacter extends MultiSparrowCharacter
 
     PauseSubState.musicSuffix = '-house';
   }
+
+    function onNoteHit(event:HitNoteScriptEvent)
+  {
+    super.onNoteHit(event);
+
+    // Override the hit note animation.
+    if(event.note.noteData.getMustHitNote()){
+      switch (event.note.kind)
+      {
+        case "ughHouse":
+          this.playAnimation('ugh', true, true);
+          return;
+      }
+    }
+  }
 }

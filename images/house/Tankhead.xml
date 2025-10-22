@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Drawn and animated by szymibymi
+-->
+<TextureAtlas imagePath="Tankhead.png" width="2045" height="3967" spritePadding="5" borderPadding="5">
+	<SubTexture name="death0001" x="5" y="1540" width="705" height="598" frameX="-630" frameY="-219" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="death0002" x="959" y="5" width="1018" height="677" frameX="-437" frameY="-162" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="death0003" x="5" y="5" width="949" height="910" frameX="-150" frameY="0" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="death0004" x="5" y="920" width="1003" height="613" frameX="-80" frameY="-59" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="death0005" x="1013" y="920" width="874" height="615" frameX="0" frameY="-409" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="death0006" x="1672" y="3367" width="326" height="391" frameX="-548" frameY="-440" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="death0007" x="1347" y="3367" width="320" height="403" frameX="-395" frameY="-543" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="death0008" x="1347" y="3367" width="320" height="403" frameX="-395" frameY="-543" frameWidth="1455" frameHeight="1024"/>
+	<SubTexture name="idle_normal0001" x="5" y="3367" width="666" height="595" frameX="0" frameY="-18" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0002" x="5" y="3367" width="666" height="595" frameX="0" frameY="-18" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0003" x="1333" y="2150" width="666" height="598" frameX="-1" frameY="-13" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0004" x="1333" y="2150" width="666" height="598" frameX="-1" frameY="-13" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0005" x="676" y="2760" width="661" height="602" frameX="-1" frameY="-4" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0006" x="676" y="2760" width="661" height="602" frameX="-1" frameY="-4" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0007" x="5" y="2150" width="659" height="605" frameX="-1" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0008" x="5" y="2150" width="659" height="605" frameX="-1" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0009" x="715" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0010" x="715" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0011" x="715" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0012" x="715" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0013" x="715" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_normal0014" x="715" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0001" x="676" y="3367" width="666" height="595" frameX="0" frameY="-18" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0002" x="676" y="3367" width="666" height="595" frameX="0" frameY="-18" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0003" x="5" y="2760" width="666" height="598" frameX="-1" frameY="-13" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0004" x="5" y="2760" width="666" height="598" frameX="-1" frameY="-13" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0005" x="1342" y="2760" width="661" height="602" frameX="-1" frameY="-4" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0006" x="1342" y="2760" width="661" height="602" frameX="-1" frameY="-4" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0007" x="669" y="2150" width="659" height="605" frameX="-1" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0008" x="669" y="2150" width="659" height="605" frameX="-1" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0009" x="1380" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0010" x="1380" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0011" x="1380" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0012" x="1380" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0013" x="1380" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+	<SubTexture name="idle_scared0014" x="1380" y="1540" width="660" height="605" frameX="0" frameY="0" frameWidth="667" frameHeight="613"/>
+</TextureAtlas>

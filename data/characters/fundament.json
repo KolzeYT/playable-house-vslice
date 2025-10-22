@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "name": "Fundament",
+  "offsets": [-1150, -850],
+  "assetPath": "shared:characters/fundament",
+  "healthIcon": {
+    "id": "pico"
+  },
+  "renderType": "animateatlas",
+  "startingAnimation": "idle",
+  "singTime": 999.0,
+  "cameraOffsets": [40, 50],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle_left",
+      "looped": false,
+      "offsets": [0, 0]
+    },
+	{
+      "name": "idleLeft",
+      "prefix": "idle_left",
+      "looped": false,
+      "offsets": [0, 0]
+    },
+	{
+      "name": "idleRight",
+      "prefix": "idle_right",
+      "looped": false,
+      "offsets": [0, 0]
+    },
+	{
+      "name": "toRight",
+      "prefix": "rotate_left",
+      "looped": false,
+      "offsets": [0, 0]
+    },
+	{
+      "name": "toLeft",
+      "prefix": "rotate_right",
+      "looped": false,
+      "offsets": [0, 0]
+    }
+  ]
+}

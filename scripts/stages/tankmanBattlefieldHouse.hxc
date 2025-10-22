@@ -1,0 +1,76 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import funkin.audio.FunkinSound;
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import funkin.graphics.shaders.OverlayBlend;
+import funkin.graphics.shaders.AdjustColorShader;
+import flixel.addons.display.FlxBackdrop;
+import funkin.util.HapticUtil;
+import funkin.util.Sequence;
+
+class TankmanBattlefieldHouseStage extends Stage
+{
+  var characterShader:AdjustColorShader = new AdjustColorShader();
+  var foregroundShader:AdjustColorShader = new AdjustColorShader();
+  var backShader:AdjustColorShader = new AdjustColorShader();
+
+  function new()
+  {
+    super('tankmanBattlefieldHouse');
+    
+    characterShader.brightness = -35;
+    characterShader.hue = -15;
+    characterShader.contrast = -10;
+    characterShader.saturation = -5;
+
+    foregroundShader.brightness = -10;
+    foregroundShader.hue = -10;
+    foregroundShader.contrast = -15;
+    foregroundShader.saturation = -5;
+
+    backShader.brightness = -30;
+    backShader.hue = -10;
+    backShader.contrast = -15;
+    backShader.saturation = 20;
+  }
+
+  var clouds:FlxBackdrop;
+
+  override function buildStage()
+  {
+    super.buildStage();
+
+		var clouds = new FlxBackdrop(Paths.image("house/clouds"), 0x01);
+		clouds.setPosition(0, -100);
+		clouds.antialiasing = true;
+		clouds.scrollFactor.set(0.1, 0.1);
+		clouds.velocity.x = 8;
+    clouds.zIndex = 15;
+
+    PlayState.instance.currentStage.add(clouds);
+    PlayState.instance.currentStage.refresh(); // Apply z-index.
+  }
+
+  override function onCreate(event:ScriptEvent)
+  {
+    super.onCreate(event);
+
+    getNamedProp('backRuins').shader = backShader;
+    getNamedProp('middleRuins').shader = foregroundShader;
+    getNamedProp('foreground').shader = foregroundShader;
+  }
+
+  /**
+   * Apply the shader to the character as it is added.
+   */
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    // Apply the shader automatically to each character as it gets added.
+    super.addCharacter(character, charType);
+    trace('Applied stage shader to ' + character.characterName, charType);
+
+      character.shader = characterShader;
+
+  }
+}

@@ -1,0 +1,45 @@
+import funkin.play.character.AnimateAtlasCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+
+class FundamentCharacter extends AnimateAtlasCharacter
+{
+  function new()
+  {
+    super('fundament');
+  }
+
+  var lastCamera:Int = 0;
+
+  public override function onSongEvent(scriptEvent:SongEventScriptEvent)
+  {
+    super.onSongEvent(scriptEvent);
+    if (scriptEvent.eventData.eventKind == "FocusCamera")
+    {
+      var eventProps = scriptEvent.eventData.value;
+      var currentCamera = Std.parseInt(eventProps.char);
+      if(currentCamera != lastCamera){
+      switch (currentCamera)
+      {
+        case 1:
+          lastCamera = currentCamera;
+          this.shouldBop = false;
+          this.playAnimation("toLeft", true, true);
+          this.idleSuffix = "Left";
+          this.mainSprite.onAnimationComplete.addOnce(function(name){
+            this.shouldBop = true;
+          });
+        case 0:
+          lastCamera = currentCamera;
+          this.shouldBop = false;
+          this.playAnimation("toRight", true, true);
+          this.idleSuffix = "Right"; 
+          this.mainSprite.onAnimationComplete.addOnce(function(name){
+            this.shouldBop = true;
+          });
+      }
+      }
+    }
+  }
+
+}
