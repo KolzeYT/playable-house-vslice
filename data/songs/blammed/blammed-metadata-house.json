@@ -21,7 +21,7 @@
             "girlfriend": "boombox",
             "opponent": "pico",
             "instrumental": "house",
-            "altInstrumentals": [],
+            "altInstrumentals": ["pico"],
             "opponentVocals": [
                 "pico"
             ],

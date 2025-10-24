@@ -104,7 +104,7 @@ class HouseCard extends BackingCard
     add(scrollLower);
 
     var bitmap = BitmapUtil.scalePartByWidth(Assets.getBitmapData(Paths.image('freeplay/backingCards/house/blueBar')), FreeplayState.CUTOUT_WIDTH);
-    blueBar = new FlxSprite(0, 239).loadGraphic(bitmap);
+    blueBar = new FlxSprite(0, 0).loadGraphic(bitmap);
     blueBar.blend = 9;
     blueBar.alpha = 0.4;
     add(blueBar);
@@ -122,10 +122,12 @@ class HouseCard extends BackingCard
 
     glowDark = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI)
       + -300, 330).loadGraphic(Paths.image('freeplay/backingCards/house/glow'));
+    glowDark.color = 0xFFE3373C;
     glowDark.blend = 9;
     add(glowDark);
 
     glow = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) + -300, 330).loadGraphic(Paths.image('freeplay/backingCards/house/glow'));
+    glow.color = 0xFFE3373C;
     glow.blend = 0;
     add(glow);
 
@@ -137,7 +139,7 @@ class HouseCard extends BackingCard
     glow.visible = false;
     glowDark.visible = false;
 
-    confirmAtlas = new FlxAtlasSprite(5, 55, Paths.animateAtlas("freeplay/backingCards/house/house-confirm"));
+    confirmAtlas = new FlxAtlasSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI), 55, Paths.animateAtlas("freeplay/backingCards/house/house-confirm"));
     confirmAtlas.visible = false;
     confirmAtlas.scale.x *= FullScreenScaleMode.wideScale.x;
     confirmAtlas.x += ((confirmAtlas.width * FullScreenScaleMode.wideScale.x) - confirmAtlas.width) * 2.58;
@@ -237,7 +239,7 @@ class HouseCard extends BackingCard
 
   public override function introDone():Void
   {
-    pinkBack.color = 0xFF98A2F3;
+    pinkBack.color = 0xFFF5A9AB;
 
     blueBar.visible = true;
     scrollBack.visible = true;
@@ -254,7 +256,7 @@ class HouseCard extends BackingCard
 
   public override function disappear():Void
   {
-    FlxTween.color(pinkBack, 0.25, 0xFF98A2F3, 0xFFFFD0D5, {ease: FlxEase.quadOut});
+    FlxTween.color(pinkBack, 0.25, 0xFFF5A9AB, 0xFFFFD0D5, {ease: FlxEase.quadOut});
 
     blueBar.visible = false;
     scrollBack.visible = false;

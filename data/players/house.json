@@ -20,32 +20,32 @@
       {
         "name": "intro",
         "prefix": "intro",
-        "offsets": [935, 560]
+        "offsets": [750, 80]
       },
       {
         "name": "idle",
         "prefix": "idle",
-        "offsets": [935, 560]
+        "offsets": [750, 80]
       },
       {
         "name": "confirm",
         "prefix": "confirm",
-        "offsets": [935, 560]
+        "offsets": [750, 80]
       },
       {
-        "name": "fistPump",
+        "name": "cheer",
         "prefix": "cheer",
-        "offsets": [935, 560]
+        "offsets": [750, 80]
       },
       {
         "name": "loss",
         "prefix": "loss",
-        "offsets": [935, 560]
+        "offsets": [750, 80]
       },
       {
         "name": "charSelect",
         "prefix": "outro",
-        "offsets": [935, 560]
+        "offsets": [750, 80]
       }
     ]
   },
@@ -59,99 +59,39 @@
   },
   "results": {
     "music": {
-      "PERFECT_GOLD": "resultsPERFECT",
-      "PERFECT": "resultsPERFECT",
-      "EXCELLENT": "resultsEXCELLENT",
-      "GREAT": "resultsNORMAL",
-      "GOOD": "resultsNORMAL",
-      "SHIT": "resultsSHIT"
+      "PERFECT_GOLD": "resultsEXCELLENT-house",
+      "PERFECT": "resultsEXCELLENT-house",
+      "EXCELLENT": "resultsEXCELLENT-house",
+      "GREAT": "resultsEXCELLENT-house",
+      "GOOD": "resultsEXCELLENT-house",
+      "SHIT": "resultsEXCELLENT-house"
     },
     "perfectGold": [
-      {
+            {
         "renderType": "animateatlas",
-        "scriptClass": "BFBedPerfectResults",
-        "startFrameLabel": "INTRO",
-        "filter": "naughty",
+        "assetPath": "shared:resultScreen/results-house/house",
         "zIndex": 500,
-        "offsets": [1342, 370],
-        "loopFrameLabel": "LOOP START"
-      },
-      {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/hearts",
-        "filter": "naughty",
-        "zIndex": 501,
-        "delay": 4.41,
-        "offsets": [1342, 370],
-        "loopFrame": 43
-      },
-      {
-        "renderType": "animateatlas",
-        "scriptClass": "BFBedPerfectResults",
-        "startFrameLabel": "INTRO 2",
-        "filter": "safe",
-        "zIndex": 500,
-        "offsets": [1342, 370],
-        "loopFrameLabel": "LOOP 2"
-      },
-      {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
-        "filter": "safe",
-        "zIndex": 501,
-        "delay": 4.41,
-        "offsets": [650, 370],
-        "scale": 0.6,
-        "sound": "shared:tickleFight",
-        "loopFrameLabel": "LOOP"
+        "offsets": [0, 0],
+
+        "loopFrame": 29
       }
     ],
     "perfect": [
       {
         "renderType": "animateatlas",
-        "scriptClass": "BFBedPerfectResults",
-        "startFrameLabel": "INTRO",
-        "filter": "naughty",
+        "assetPath": "shared:resultScreen/results-house/house",
         "zIndex": 500,
-        "offsets": [1342, 370],
-        "loopFrameLabel": "LOOP START"
-      },
-      {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/hearts",
-        "filter": "naughty",
-        "zIndex": 501,
-        "delay": 4.41,
-        "offsets": [1342, 370],
-        "loopFrame": 43
-      },
-      {
-        "renderType": "animateatlas",
-        "scriptClass": "BFBedPerfectResults",
-        "startFrameLabel": "INTRO 2",
-        "filter": "safe",
-        "zIndex": 500,
-        "offsets": [1342, 370],
-        "loopFrameLabel": "LOOP 2"
-      },
-      {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
-        "filter": "safe",
-        "zIndex": 501,
-        "delay": 4.41,
-        "offsets": [650, 370],
-        "scale": 0.6,
-        "sound": "shared:tickleFight",
-        "loopFrameLabel": "LOOP"
+        "offsets": [0, 0],
+
+        "loopFrame": 29
       }
     ],
     "excellent": [
       {
         "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsEXCELLENT",
+        "assetPath": "shared:resultScreen/results-house/house",
         "zIndex": 500,
-        "offsets": [1329, 429],
+        "offsets": [0, 0],
 
         "loopFrame": 29
       }
@@ -159,49 +99,31 @@
     "great": [
       {
         "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsGREAT/gf",
-        "scale": 0.93,
-        "delay": 0.25,
-        "offsets": [802, 331],
-        "zIndex": 499,
-
-        "loopFrame": 9
-      },
-      {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsGREAT/bf",
-        "scale": 0.93,
+        "assetPath": "shared:resultScreen/results-house/house",
         "zIndex": 500,
-        "offsets": [929, 363],
+        "offsets": [0, 0],
 
-        "loopFrame": 15
+        "loopFrame": 29
       }
     ],
     "good": [
       {
         "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-bf/resultsGOOD/bf",
-        "zIndex": 501,
-        "offsets": [662, 371],
-
-        "loopFrame": 14
-      },
-      {
-        "renderType": "sparrow",
-        "assetPath": "shared:resultScreen/results-bf/resultsGOOD/resultGirlfriendGOOD",
+        "assetPath": "shared:resultScreen/results-house/house",
         "zIndex": 500,
-        "delay": 0.91,
-        "offsets": [629, 323],
-        "loopFrame": 9
+        "offsets": [0, 0],
+
+        "loopFrame": 29
       }
     ],
     "loss": [
       {
         "renderType": "animateatlas",
-        "scriptClass": "BFShitResults",
+        "assetPath": "shared:resultScreen/results-house/house",
         "zIndex": 500,
-        "offsets": [0, 20],
-        "loopFrameLabel": "Loop Start"
+        "offsets": [0, 0],
+
+        "loopFrame": 29
       }
     ]
   }

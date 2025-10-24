@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "bgAsset": "freeplay/freeplayBGweek1-bf",
-  "selectorAsset": "freeplay/freeplaySelector/freeplaySelector",
-  "numbersAsset": "digital_numbers",
-  "capsuleAsset": "freeplay/freeplayCapsule/capsule/freeplayCapsule",
-  "capsuleTextColors": ["#82e0e0", "#82e0e0"],
+  "bgAsset": "freeplay/freeplayBGweek1-house",
+  "selectorAsset": "freeplay/freeplaySelector/freeplaySelector_house",
+  "numbersAsset": "digital_numbers_house",
+  "capsuleAsset": "freeplay/freeplayCapsule/capsule/freeplayCapsule_pico",
+  "capsuleTextColors": ["#E689AA", "#E689AA"],
   "startDelay": 1.0
 }
