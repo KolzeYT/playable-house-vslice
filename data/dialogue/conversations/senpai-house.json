@@ -1,0 +1,143 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "Lunchbox",
+    "fadeTime": 2.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "senpai-gyatt",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "enter",
+
+      "text": ["Ah, another lovely fair maiden has graced m-"]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "house",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["What.. are you?"]
+    },
+    {
+      "speaker": "house",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Breef"]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Are you like.. a robot or something?"]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["And... A House shaped one to that?"]
+    },
+    {
+      "speaker": "house",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Braf!"]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["You know what, I will not be questioning that"]
+    },
+    {
+      "speaker": "senpai-gyatt",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "And what could be a reward for the victor of our competition?",
+
+      "text": ["wait"]
+    },
+    {
+      "speaker": "senpai-bruh",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["The only things you brought are some... Dirty bricks and an old boombox"]
+    },
+    {
+      "speaker": "senpai-gyatt",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Anyway... perhaps my delightful serenade will at the very least attract my beauties!"]
+    },
+    {
+      "speaker": "senpai-gyatt",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Just please, keep your distance. I've seen that boombox in the garbage behind the school"]
+    },
+    {
+      "speaker": "house",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    }
+  ]
+}

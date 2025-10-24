@@ -139,7 +139,7 @@ class HouseCard extends BackingCard
     glow.visible = false;
     glowDark.visible = false;
 
-    confirmAtlas = new FlxAtlasSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI), 55, Paths.animateAtlas("freeplay/backingCards/house/house-confirm"));
+    confirmAtlas = new FlxAtlasSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) + 745, 350, Paths.animateAtlas("freeplay/backingCards/house/house-confirm"));
     confirmAtlas.visible = false;
     confirmAtlas.scale.x *= FullScreenScaleMode.wideScale.x;
     confirmAtlas.x += ((confirmAtlas.width * FullScreenScaleMode.wideScale.x) - confirmAtlas.width) * 2.58;

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Drawn by szymibymi
+-->
+<TextureAtlas imagePath="portrait-house.png" width="213" height="149" spritePadding="5" borderPadding="5">
+	<SubTexture name="portraitEnter0000" x="5" y="5" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitEnter0001" x="5" y="5" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitEnter0002" x="109" y="5" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitEnter0003" x="109" y="5" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitEnter0004" x="5" y="77" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitEnter0005" x="5" y="77" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitEnter0006" x="109" y="77" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitEnter0007" x="109" y="77" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitTalk0000" x="109" y="77" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+	<SubTexture name="portraitTalk0001" x="109" y="77" width="99" height="67" frameX="0" frameY="0" frameWidth="100" frameHeight="72"/>
+</TextureAtlas>

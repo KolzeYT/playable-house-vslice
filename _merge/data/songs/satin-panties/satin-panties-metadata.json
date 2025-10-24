@@ -1,3 +1,6 @@
 [
-  { "op": "add", "path": "/playData/songVariations/-", "value": "house" }
+  { "op": "add", "path": "/playData/songVariations", "value": [] },
+  { "op": "add", "path": "/playData/songVariations/-", "value": "house" },
+  { "op": "add", "path": "/playData/characters/altInstrumentals", "value": [] },
+  { "op": "add", "path": "/playData/characters/altInstrumentals/-", "value": "house" }
 ]

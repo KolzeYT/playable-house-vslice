@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "name": "House",
+  "assetPath": "house-dialogue/portrait-house",
+  "flipX": false,
+  "isPixel": true,
+  "scale": 5,
+  "offsets": [100, -240],
+  "animations": [
+    {
+      "name": "talkEnter",
+      "prefix": "portraitEnter0",
+      "frameRate": 12
+    },
+    {
+      "name": "talk",
+      "prefix": "portraitTalk0"
+    }
+  ]
+}
